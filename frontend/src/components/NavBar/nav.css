@@ -1,0 +1,23 @@
+.container{
+    font-family: 'Della Respira', serif;
+
+    /* font-family: 'HK Grotesk', sans-serif; */
+    /* font-family: 'Inter', sans-serif; */
+
+
+    /* font-size: 1.0625rem;
+    font-weight: 400;
+    line-height: 1.6; */
+}
+
+a{
+    font-family: 'Della Respira', serif;
+    /* font-family: 'Inter', sans-serif; */
+    /* font-family: 'HK Grotesk', sans-serif; */
+    font-size: 17px;
+    text-decoration: none!important;
+    color: inherit!important;
+
+
+
+}

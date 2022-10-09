@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Books</title>
+</head>
+<body>
+
+    <p>Goran</p>
+
+<!--<table>-->
+<!--    <tr>-->
+<!--        <th>bookName</th>-->
+<!--        <th>authorName</th>-->
+<!--        <th>synapse</th>-->
+<!--        <th>genre</th>-->
+<!--        <th>price</th>-->
+
+<!--    </tr>-->
+<!--    &lt;!&ndash; For each VirtualServers you should have one <tr> like below &ndash;&gt;-->
+<!--    <tr th:each="book:${books}" class="item">-->
+<!--        <td th:value="${book.bookName}" th:text="${book.bookName}"></td>-->
+<!--        <td th:value="${book.authorName}" th:text="${book.authorName}">[VirtualServer.ipaddress]</td>-->
+<!--        <td th:value="${book.synapse}" th:text="${book.synapse}">[VirtualServer.ostype]</td>-->
+<!--        <td th:value="${book.genre}" th:text="${book.genre}">[VirtualServer.ostype]</td>-->
+<!--        <td th:value="${book.price}" th:text="${book.price}">[VirtualServer.ostype]</td>-->
+
+<!--        &lt;!&ndash; VirtualServerController.delete (Only SYSADMIN can see this element)&ndash;&gt;-->
+<!--&lt;!&ndash;            <form METHOD="POST" th:action="@{'/VirtualServers/{id}/delete' (id=${VirtualServer.getId()})}" sec:authorize="hasRole('ROLE_SYSADMIN')" >&ndash;&gt;-->
+<!--&lt;!&ndash;                <button type="submit" class="delete-item">Delete</button>&ndash;&gt;-->
+<!--&lt;!&ndash;            </form>&ndash;&gt;-->
+<!--&lt;!&ndash;            &lt;!&ndash; VirtualServerController.showEdit (Only SYSADMIN can see this element)&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;            <a  th:href="@{'/VirtualServers/{id}/edit' (id=${VirtualServer.getId()})}" class="edit-item" sec:authorize="hasRole('ROLE_SYSADMIN')" >Edit</a>&ndash;&gt;-->
+
+<!--&lt;!&ndash;            &lt;!&ndash; VirtualServerController.markTerminated (Visible only when the virtual server is not terminated)&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;            <div th:if="${!VirtualServer.terminated}">&ndash;&gt;-->
+<!--&lt;!&ndash;                <form METHOD="POST"  th:action="@{'/VirtualServers/{id}/terminate' (id=${VirtualServer.getId()})}">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <button class="change-item">Terminate</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                </form>&ndash;&gt;-->
+<!--&lt;!&ndash;            </div>&ndash;&gt;-->
+
+<!--        </tr>-->
+<!--    </table>-->
+</body>
+</html>
